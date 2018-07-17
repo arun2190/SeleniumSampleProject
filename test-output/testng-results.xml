@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="61727" started-at="2018-06-18T07:40:43Z" finished-at="2018-06-18T07:41:44Z">
+    <groups>
+    </groups>
+    <test name="FireFox" duration-ms="38537" started-at="2018-06-18T07:40:43Z" finished-at="2018-06-18T07:41:21Z">
+      <class name="com.wordpress.tests.TestLogin">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:com.wordpress.tests.TestLogin@1629756]" name="setupApplication" is-config="true" duration-ms="22703" started-at="2018-06-18T13:10:43Z" finished-at="2018-06-18T13:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="verifyValidLogin()[pri:0, instance:com.wordpress.tests.TestLogin@1629756]" name="verifyValidLogin" duration-ms="13830" started-at="2018-06-18T13:11:05Z" finished-at="2018-06-18T13:11:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.wordpress.tests.TestLogin@1629756]" name="closeApplication" is-config="true" duration-ms="1990" started-at="2018-06-18T13:11:19Z" finished-at="2018-06-18T13:11:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.wordpress.tests.TestLogin -->
+    </test> <!-- FireFox -->
+    <test name="Chrome" duration-ms="22780" started-at="2018-06-18T07:41:22Z" finished-at="2018-06-18T07:41:44Z">
+      <class name="com.wordpress.tests.TestLogin">
+        <test-method status="PASS" signature="setupApplication(java.lang.String)[pri:0, instance:com.wordpress.tests.TestLogin@bd1b6a]" name="setupApplication" is-config="true" duration-ms="8556" started-at="2018-06-18T13:11:22Z" finished-at="2018-06-18T13:11:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="verifyValidLogin()[pri:0, instance:com.wordpress.tests.TestLogin@bd1b6a]" name="verifyValidLogin" duration-ms="13569" started-at="2018-06-18T13:11:30Z" finished-at="2018-06-18T13:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.wordpress.tests.TestLogin@bd1b6a]" name="closeApplication" is-config="true" duration-ms="654" started-at="2018-06-18T13:11:44Z" finished-at="2018-06-18T13:11:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.wordpress.tests.TestLogin -->
+    </test> <!-- Chrome -->
+  </suite> <!-- TestSuite -->
+</testng-results>
